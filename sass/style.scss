@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+* h1 {
+    margin-bottom: 0
+}
+
+@import 'block/header';
+@import 'block/button';
+@import 'block/title';
+@import 'block/about';
+@import 'block/delivery';
+@import 'block/china';
+@import 'block/divider';
+@import 'block/price';
+@import 'block/input';
+@import 'block/agent';
+@import 'block/manager';
+@import 'block/scheme';
+@import 'block/slider';
+@import 'block/questions';
+@import 'block/map';
+@import 'block/footer';
+@import 'block/modal';
+@import 'block/mask';
+@import 'block/media';

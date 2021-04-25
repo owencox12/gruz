@@ -1,0 +1,33 @@
+.about {
+    min-height: 590px;
+    background-color: #f3f3f3;
+    padding: 58px 0 51px 0;
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__item {
+        display: flex;
+        flex: 0 1 calc(50% - 30px);
+        margin-top: 31px;
+        margin-right: 30px;
+        margin-bottom: 20px;
+        &_icon {
+            margin-right: 20px;
+        }
+        &_descr {
+            color: #3a3a3a;
+            font-family: "Roboto Light";
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            span {
+                color: #ec644b;
+                font-family: "Roboto - Bold";
+                font-size: 16px;
+                font-weight: 700;
+                text-align: center;
+            }
+        }
+    }
+}

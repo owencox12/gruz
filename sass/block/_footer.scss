@@ -1,0 +1,94 @@
+.footer {
+    min-height: 201px;
+    background-color: #25333c;
+    padding: 24px 0 36px 0;
+    .container {
+        max-width: 1175px;
+    }
+    &__block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__logo {
+        span {
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+            text-align: left;
+            margin-left: 43px;
+        }
+    }
+    &__divider {
+        width: 1300px;
+        height: 1px;
+        margin-right: 50px;
+        opacity: 0.3;
+        background: #fff;
+        margin-top: 18px;
+    }
+    &__social {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+    &__date {
+        opacity: 0.6;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 17px;
+        text-align: center;
+    }
+    &__pol a {
+        color: #ec644b;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17px;
+        text-align: center;
+        text-decoration: underline;
+    }
+    &__site a {
+        opacity: 0.6;
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 17px;
+    }
+    &__phone {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        a {
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 19px;
+            font-weight: 700;
+            line-height: 24px;
+            transition: all 0.4s;
+            &:hover {
+                color: #ec644b;
+                text-decoration: none;
+
+            }
+        }
+        span {
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: right;
+
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.delivery {
+    min-height:587px;
+    background: #fff;
+    padding: 51px 0 57px 0;
+    &__text {
+        color: #2e2e2e;
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 17px;
+        max-width: 880px;
+    }
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 37px;
+    }
+    &__item {
+        display: flex;
+        width: 31.33333%;
+        margin-top: 37px;
+        margin: 0 20px;
+        &_text {
+            color: #3a3a3a;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            &_title {
+                color: #ec644b;
+                font-family: "Roboto";
+                font-size: 18px;
+                font-weight: 700;
+                text-align: center;
+                margin-top: 10px;
+            }
+        }
+    }
+}

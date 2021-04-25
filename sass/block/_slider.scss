@@ -1,0 +1,72 @@
+.slider {
+    min-height: 532px;
+    background: #fff;
+    padding: 51px 0 65px 0;
+    &__text {
+        color: #2e2e2e;
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+        margin-top: 19px;
+    }
+    .image-slider__image {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .slider__about {
+        display: flex;
+        justify-content: center;
+    }
+    .slider__descr {
+            color: #3a3a3a;
+            font-family: Roboto;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 22.01px;
+            margin: 0 auto;
+            text-align: center;
+            min-width: 601px;
+            margin-top: 13px;
+            span {
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 700;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .image-slider .swiper-button-prev::after{
+        
+        color: red;
+        font-size: 30px;
+        margin-left: 850px;
+        margin-bottom: 70px;
+        outline: none;
+
+    }
+    .image-slider .swiper-button-next::after{
+        
+        color: red;
+        font-size: 30px;
+        margin-right: 850px;
+        margin-bottom: 70px;
+        outline: none;
+
+        
+    }
+    .swiper-pagenation {
+        margin-top: 30px;
+    }
+    .swiper-slide {
+        transition: 0.5s;
+        transform: scale(0.55);
+        opacity: 0.3;
+        width: 318px;
+    }
+    .swiper-slide-active {
+        transform: scale(1.1);
+        transition: 0.5s;
+        opacity: 1;
+    }

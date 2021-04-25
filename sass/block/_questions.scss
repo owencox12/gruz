@@ -1,0 +1,53 @@
+.questions {
+    min-height: 438px;
+    background: url(../../image/bgcolor10.png) center center / cover no-repeat;
+    padding: 62px 0 72px 0;
+    &__item {
+        width: 896px;
+        min-height: 297px;
+        background: rgba(255, 255, 255, .7);
+        display: block;
+        margin: 0 auto;
+        
+    }
+    &__form {
+        padding: 18px 40px 10px 30px;
+        
+    }
+    &__block {
+        width: 896px;
+        height: 68px;
+        background-color: #25333c;
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0 0 0;
+    }
+    &__title {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 19px;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__text {
+        color: #ffffff;
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+    &__textarea {
+        font-family: Roboto;
+        font-size: 13px;
+        margin-top: 9px;
+        border-radius: 10px;
+        margin-left: 8px;
+        padding-top: 5px;
+        padding-left: 25px;
+        resize: none;
+        outline: none;
+    }
+}
